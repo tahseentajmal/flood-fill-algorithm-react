@@ -1,14 +1,19 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Pacifico', cursive;
   text-align: center;
 }
 
 .App {
-  margin: 20px;
+  margin: 10px;
 }
 
 h1 {
-  margin-bottom: 20px;
+  font-size: 80px;
+  margin: 0%;
+  font-family: 'Bebas Neue', sans-serif;
+}
+h6{
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 #color-selector {
@@ -21,11 +26,20 @@ h1 {
 }
 
 .color-cell {
-  width: 30px;
+  width: 60px;
   height: 30px;
-  margin: 5px;
+  margin: 10px;
   cursor: pointer;
 }
+
+
+.color-cell:hover{
+  transition: all .05s ease-in-out;
+  transform: scale(1.5); 
+  border-radius: 20px;
+}
+
+
 
 #color-grid {
   margin: 0 auto;
@@ -33,7 +47,14 @@ h1 {
 }
 
 .color-grid-cell {
-  width: 30px;
+  width: 60px;
   height: 30px;
   cursor: pointer;
+  transition: all .2s ease-in-out;
+  border-color: black;
+  padding: 10px;
 }
+
+.color-grid-cell:hover {
+   transform: scale(1.1); 
+  }

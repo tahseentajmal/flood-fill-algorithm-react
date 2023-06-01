@@ -67,9 +67,8 @@ function App() {
   return (
     <div className="App">
       <h1>ColorGrid</h1>
-
       <div id="color-selector">
-        <h2>Available Colors</h2>
+        <h2>Select a Color.</h2>
         <div id="color-palette">
           {colors.map((color) => (
             <div
